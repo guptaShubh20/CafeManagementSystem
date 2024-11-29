@@ -1,0 +1,88 @@
+/* .container {
+    max-width: 600px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 100%;
+} */
+body {
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb); /* Soft gradient background */
+    font-family: 'Roboto', sans-serif; /* Clean and modern font */
+}
+
+.container {
+    background: #ffffff; /* White background for the form */
+    border-radius: 12px; /* More pronounced rounded corners */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* Deeper shadow for a lifted effect */
+    padding: 40px; /* More padding for spaciousness */
+    max-width: 600px; /* Wider maximum width */
+    margin: 50px auto; /* Centered with top margin */
+    transition: transform 0.3s; /* Animation for hover effect */
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+h2 {
+    color: #333; /* Dark heading color */
+    text-align: center; /* Centered heading */
+    margin-bottom: 30px; /* More space below heading */
+    font-size: 28px; /* Larger font size */
+}
+
+.form-label {
+    font-weight: 600; /* Bold labels */
+    color: #555; /* Darker color for labels */
+}
+
+.form-control, .form-select {
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded edges */
+    padding: 12px; /* Padding for inputs */
+    margin-bottom: 20px; /* Space between fields */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition effects */
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #007bff; /* Bright border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Soft glow effect */
+}
+
+.btn {
+    background: linear-gradient(90deg, #007bff, #00c6ff); /* Gradient button */
+    color: #ffffff; /* White text */
+    border: none; /* No border */
+    border-radius: 8px; /* Rounded button edges */
+    padding: 12px 25px; /* Button padding */
+    font-size: 16px; /* Button text size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background 0.3s, transform 0.2s; /* Transition for background color and scale */
+}
+
+.btn:hover {
+    background: linear-gradient(90deg, #0056b3, #00a1e5); /* Darker gradient on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.alert {
+    border-radius: 8px; /* Rounded corners for alerts */
+    padding: 15px; /* Padding inside alerts */
+    margin-top: 10px; /* Space above alerts */
+}
+
+.alert-success {
+    background-color: #d4edda; /* Light green for success */
+    border: 1px solid #c3e6cb; /* Green border */
+    color: #155724; /* Dark green text */
+}
+
+.text-danger {
+    color: #dc3545; /* Red color for error messages */
+}

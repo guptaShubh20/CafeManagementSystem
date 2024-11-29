@@ -1,0 +1,9 @@
+*.vsidx 
+ bin/
+ obj/
+ # User-specific files 
+*.suo 
+*.user 
+*.userosscache 
+*.sln.docstates 
+ 

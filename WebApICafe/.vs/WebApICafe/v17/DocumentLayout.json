@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|c:\\users\\dell\\onedrive\\desktop\\cafe-management-system\\webapicafe\\webapicafe\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|solutionrelative:webapicafe\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|c:\\users\\dell\\onedrive\\desktop\\cafe-management-system\\webapicafe\\webapicafe\\helpers\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|solutionrelative:webapicafe\\helpers\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|c:\\users\\dell\\onedrive\\desktop\\cafe-management-system\\webapicafe\\webapicafe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|solutionrelative:webapicafe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|c:\\users\\dell\\onedrive\\desktop\\cafe-management-system\\webapicafe\\webapicafe\\models\\cafemgm2context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|solutionrelative:webapicafe\\models\\cafemgm2context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|c:\\users\\dell\\onedrive\\desktop\\cafe-management-system\\webapicafe\\webapicafe\\models\\authenticate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|solutionrelative:webapicafe\\models\\authenticate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|c:\\users\\dell\\onedrive\\desktop\\cafe-management-system\\webapicafe\\webapicafe\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|solutionrelative:webapicafe\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|c:\\users\\dell\\onedrive\\desktop\\cafe-management-system\\webapicafe\\webapicafe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|solutionrelative:webapicafe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|c:\\users\\dell\\onedrive\\desktop\\cafe-management-system\\webapicafe\\webapicafe\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|solutionrelative:webapicafe\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|c:\\users\\dell\\onedrive\\desktop\\cafe-management-system\\webapicafe\\webapicafe\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|solutionrelative:webapicafe\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|c:\\users\\dell\\onedrive\\desktop\\cafe-management-system\\webapicafe\\webapicafe\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|solutionrelative:webapicafe\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|c:\\users\\dell\\onedrive\\desktop\\cafe-management-system\\webapicafe\\webapicafe\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|solutionrelative:webapicafe\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|c:\\users\\dell\\onedrive\\desktop\\cafe-management-system\\webapicafe\\webapicafe\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|solutionrelative:webapicafe\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|c:\\users\\dell\\onedrive\\desktop\\cafe-management-system\\webapicafe\\webapicafe\\controllers\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|solutionrelative:webapicafe\\controllers\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|c:\\users\\dell\\onedrive\\desktop\\cafe-management-system\\webapicafe\\webapicafe\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|solutionrelative:webapicafe\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|c:\\users\\dell\\onedrive\\desktop\\cafe-management-system\\webapicafe\\webapicafe\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|solutionrelative:webapicafe\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|c:\\users\\dell\\onedrive\\desktop\\cafe-management-system\\webapicafe\\webapicafe\\controllers\\cartitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|solutionrelative:webapicafe\\controllers\\cartitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|c:\\users\\dell\\onedrive\\desktop\\cafe-management-system\\webapicafe\\webapicafe\\webapicafe.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|solutionrelative:webapicafe\\webapicafe.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|c:\\users\\dell\\onedrive\\desktop\\cafe-management-system\\webapicafe\\webapicafe\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|solutionrelative:webapicafe\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|c:\\users\\dell\\onedrive\\desktop\\cafe-management-system\\webapicafe\\webapicafe\\webapicafe.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0A8EFE51-6BAC-4EE6-A557-9912BB49A7E0}|WebApICafe\\WebApICafe.csproj|solutionrelative:webapicafe\\webapicafe.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Authenticate.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Models\\Authenticate.cs",
+              "RelativeDocumentMoniker": "WebApICafe\\Models\\Authenticate.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Models\\Authenticate.cs",
+              "RelativeToolTip": "WebApICafe\\Models\\Authenticate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T05:07:57.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CafeMgm2Context.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Models\\CafeMgm2Context.cs",
+              "RelativeDocumentMoniker": "WebApICafe\\Models\\CafeMgm2Context.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Models\\CafeMgm2Context.cs",
+              "RelativeToolTip": "WebApICafe\\Models\\CafeMgm2Context.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAAACMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T17:34:23.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Program.cs",
+              "RelativeDocumentMoniker": "WebApICafe\\Program.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Program.cs",
+              "RelativeToolTip": "WebApICafe\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T04:15:29.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApICafe\\appsettings.json",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\appsettings.json",
+              "RelativeToolTip": "WebApICafe\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-29T13:49:10.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebApICafe\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebApICafe\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-29T13:49:19.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CartsController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Controllers\\CartsController.cs",
+              "RelativeDocumentMoniker": "WebApICafe\\Controllers\\CartsController.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Controllers\\CartsController.cs",
+              "RelativeToolTip": "WebApICafe\\Controllers\\CartsController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwCgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:35:56.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Helpers\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "WebApICafe\\Helpers\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Helpers\\PasswordHasher.cs",
+              "RelativeToolTip": "WebApICafe\\Helpers\\PasswordHasher.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:42:12.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "WebApICafe\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "WebApICafe\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:39:39.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "WebApICafe\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "WebApICafe\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:40:06.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "WebApICafe\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Models\\Product.cs",
+              "RelativeToolTip": "WebApICafe\\Models\\Product.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T05:18:43.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WebApICafe\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WebApICafe\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAAADQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:24:32.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "WebApICafe\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "WebApICafe\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAQwGIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:37:01.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "WebApICafe\\Controllers\\PaymentsController.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "WebApICafe\\Controllers\\PaymentsController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:39:03.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Controllers\\OrderItemsController.cs",
+              "RelativeDocumentMoniker": "WebApICafe\\Controllers\\OrderItemsController.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Controllers\\OrderItemsController.cs",
+              "RelativeToolTip": "WebApICafe\\Controllers\\OrderItemsController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAgwHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:38:19.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ContactsController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Controllers\\ContactsController.cs",
+              "RelativeDocumentMoniker": "WebApICafe\\Controllers\\ContactsController.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Controllers\\ContactsController.cs",
+              "RelativeToolTip": "WebApICafe\\Controllers\\ContactsController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAgwHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:38:09.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CartItemController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Controllers\\CartItemController.cs",
+              "RelativeDocumentMoniker": "WebApICafe\\Controllers\\CartItemController.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Controllers\\CartItemController.cs",
+              "RelativeToolTip": "WebApICafe\\Controllers\\CartItemController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:46:41.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WebApICafe.http",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\WebApICafe.http",
+              "RelativeDocumentMoniker": "WebApICafe\\WebApICafe.http",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\WebApICafe.http",
+              "RelativeToolTip": "WebApICafe\\WebApICafe.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-10-29T13:49:03.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "WebApICafe\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "WebApICafe\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAowIIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:38:38.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WebApICafe.csproj",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\WebApICafe.csproj",
+              "RelativeDocumentMoniker": "WebApICafe\\WebApICafe.csproj",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\Cafe-Management-System\\WebApICafe\\WebApICafe\\WebApICafe.csproj",
+              "RelativeToolTip": "WebApICafe\\WebApICafe.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-23T20:42:22.531Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

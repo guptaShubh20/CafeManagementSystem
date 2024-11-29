@@ -1,0 +1,57 @@
+<app-nav></app-nav>
+
+<section class="food_section layout_padding-bottom">
+    <div class="container">
+        <div class="heading_container heading_center">
+            <h2>
+                Our Menu
+            </h2>
+        </div>
+
+
+
+
+        <ul class="filters_menu">
+            <li  [ngClass]="{'active': activeItem === 'all'}"  (click)="filteredItems(0,'all')">All</li>
+                <li  *ngFor="let c of csrv.cList" (click)="filteredItems(c.CategoryId,c.Name)" [ngClass]="{'active': activeItem === c.Name}" >{{ c.Name }}</li>
+        </ul>
+
+     
+       
+
+        <div class="filters-content">
+            <div class="row grid">
+                <div class="col-sm-6 col-lg-4 all  " *ngFor="let p of fItems">
+                    <div class="box">
+                        <div>
+                            <div class="img-box">
+                                <img [src]="p.ImageUrl" [alt]="p.Name">
+                            </div>
+                            <div class="detail-box">
+                                <h5>
+                                    {{ p.Name }}
+                                </h5>
+                                <p>
+                                    {{ p.Description }}
+                                </p>
+                                <div class="options">
+                                    <h6>
+                                        ${{ p.Price }}
+                                    </h6>
+                                    <a (click)="addItemToCart(p.ProductId)">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                                              </svg>
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+</section>
+
+<app-footer></app-footer>

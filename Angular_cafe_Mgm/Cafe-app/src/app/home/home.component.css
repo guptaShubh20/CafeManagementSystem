@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap");
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    color: black;
+}
+
+
+
+
+
+.bg {
+    margin-top: 0;
+    background-image: url('/assets/main.jpg'); /* Use leading slash for root relative path */
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    width: auto;
+    margin-top: 0; /* Adjust as needed */
+    padding-top: 0
+    
+}
+
+
+.table{
+    margin-top: 0;
+    background-image: url('/assets/book-table-img.jpg'); /* Use leading slash for root relative path */
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    width: auto;
+    margin-top: 0; /* Adjust as needed */
+    padding-top: 0
+}
+
+
+
+.itl {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    color: white;    
+    font-style: italic;
+}
+
+.social-icons {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center the icons horizontally */
+    gap: 15px; /* Space between icons, adjust as needed */
+}
+
+.social-icons i {
+    font-size: 24px; /* Adjust icon size if necessary */
+    color: azure; /* Change icon color if needed */
+}
+
+
+.carousel-item img {
+    height: auto;
+    max-height: 90vh; /* Adjust maximum height */
+    width: 100%; /* Fit the width of the carousel */
+}
+
+
+.card {
+    transition: transform 0.3s; /* Smooth transition for scaling  */
+    border: none; /* Remove default border */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scale up the card slightly on hover */
+       
+}
+
+

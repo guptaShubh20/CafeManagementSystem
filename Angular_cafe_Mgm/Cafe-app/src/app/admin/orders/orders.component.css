@@ -1,0 +1,17 @@
+
+.container {
+    max-width: 900px;
+  }
+  
+  table {
+    width: 100%;
+    text-align: center;
+  }
+  
+  button {
+    margin: 0 5px;
+  }
+  h2{
+    text-align: center;
+  }
+  

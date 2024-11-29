@@ -1,0 +1,102 @@
+<app-adminnav></app-adminnav>
+
+
+  
+    <div class="row " >
+      <!-- Sidebar -->
+      <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-danger">
+                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+
+                        <span class="fs-5 d-none d-sm-inline"><b>Admin Portal</b></span>
+                 
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                       
+                      
+                        <li>
+                            <a routerLink="/dashboard" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-speedometer2" style="color: white; font-size: large;"></i> <span class="ms-1 d-none d-sm-inline text-white fw-bold">Dashboard</span> </a>
+                
+                        </li>
+                        <li>
+                            <a routerLink="/categories"  class="nav-link px-0 align-middle ">
+                                <i class="bi bi-columns-gap" style="color: white;"></i><span class="ms-1 d-none d-sm-inline text-white fw-bold">Categories</span></a>
+        
+                        </li>
+                        <li>
+                            <a routerLink="/products"  class="nav-link px-0 align-middle">
+                                <i class="bi bi-cup-straw" style="color:white;"></i> <span class="ms-1 d-none d-sm-inline text-white fw-bold">Products</span> </a>
+
+                        </li>
+                        <li>
+                            <a routerLink="/orders" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-table" style="color: white;"></i> <span class="ms-1 d-none d-sm-inline text-white fw-bold">Orders</span></a>
+                        </li>
+                
+                   
+                        <li>
+                            <a routerLink="/customers" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-people" style="color: white;"></i> <span class="ms-1 d-none d-sm-inline text-white fw-bold">Customers</span> </a>
+                        </li>
+
+                        <li>
+                            <a routerLink="/contact" class="nav-link px-0 align-middle">
+                                <i class="bi bi-chat-right-text-fill" style="color: white;"></i><span class="ms-1 d-none d-sm-inline text-white fw-bold">Contact</span> </a>
+                        </li>
+
+
+                        <li>
+                            <a routerLink="/menu" class="nav-link px-0 align-middle">
+                                <i class="bi bi-menu-down" style="color: white;"></i><span
+                                    class="ms-1 d-none d-sm-inline text-white fw-bold">Menu</span> </a>
+                        </li>
+                        
+                    </ul>
+  
+                
+                </div>
+            </div>
+
+        <div class="col py-3">
+            
+      <h2 style="font-family: 'Dancing Script',cursive; text-align: center;">Profile Details</h2>
+               
+                    <table class="table table-hover table-dark table-bordered">
+                        <thead>
+                            <tr>
+                                <th>UserID</th>
+                                <th>Image</th>
+                                <th>Name</th>
+                                <th>Mobile</th>
+                                <th>Email</th>
+                                <th>Address</th>
+                                <th>Post Code</th>
+                                <th>Delete Customer</th>
+                               
+                    
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let p of objs.uList" >
+                                
+                                <td >{{p.UserId}}</td>
+                                <td><img [src] = "p.ImageUrl" alt="Not Found" ></td>
+                                <td>{{p.Name}}</td>
+                                <td>{{p.Mobile}}</td>
+                               <td>{{p.Email}}</td>
+                               <td>{{p.Address}}</td>
+                               <td>{{p.PostCode}}</td>
+                               <td><i class="bi bi-trash3" (click)="onDelete(p.UserId)"></i></td>
+                                
+                           
+                               
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+            </div>
+        </div>
+    </div>
+  

@@ -1,0 +1,109 @@
+<app-adminnav></app-adminnav>
+
+
+  
+    <div class="row " >
+      <!-- Sidebar -->
+      <div class="container-fluid">
+        <div class="row flex-nowrap">
+          
+          <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-danger">
+            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+               
+                <span class="fs-5 d-none d-sm-inline"><b>Admin Portal</b></span>
+           
+                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                   
+                  
+                    <li>
+                        <a routerLink="/dashboard" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-speedometer2" style="color: white; font-size: large;"></i> <span class="ms-1 d-none d-sm-inline text-white fw-bold">Dashboard</span> </a>
+            
+                    </li>
+                    <li>
+                        <a routerLink="/categories"  class="nav-link px-0 align-middle ">
+                            <i class="bi bi-columns-gap" style="color: white;"></i><span class="ms-1 d-none d-sm-inline text-white fw-bold">Categories</span></a>
+    
+                    </li>
+                    <li>
+                        <a routerLink="/products"  class="nav-link px-0 align-middle">
+                            <i class="bi bi-cup-straw" style="color:white;"></i> <span class="ms-1 d-none d-sm-inline text-white fw-bold">Products</span> </a>
+
+                    </li>
+                    <li>
+                        <a routerLink="/orders" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-table" style="color: white;"></i> <span class="ms-1 d-none d-sm-inline text-white fw-bold">Orders</span></a>
+                    </li>
+            
+               
+                    <li>
+                        <a routerLink="/customers" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-people" style="color: white;"></i> <span class="ms-1 d-none d-sm-inline text-white fw-bold">Customers</span> </a>
+                    </li>
+
+                    <li>
+                        <a routerLink="/contact" class="nav-link px-0 align-middle">
+                            <i class="bi bi-chat-right-text-fill" style="color: white;"></i><span class="ms-1 d-none d-sm-inline text-white fw-bold">Contact</span> </a>
+                    </li>
+
+                        <li>
+                          <a routerLink="/menu" class="nav-link px-0 align-middle">
+                            <i class="bi bi-menu-down" style="color: white;"></i><span
+                              class="ms-1 d-none d-sm-inline text-white fw-bold">Menu</span> </a>
+                        </li>
+                    
+                </ul>
+
+            
+            </div>
+        </div>
+
+            <div class="col py-3">
+                <section class="admin-feedback layout_padding">
+                    <div class="container">
+                      <div class="heading_container">
+                        <h2>Customer Feedback</h2>
+                      </div>
+                  
+                      <div *ngIf="feedbackList.length > 0; else noFeedback">
+                        <table class="table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th>ID</th>
+                              <th>Name</th>
+                              <th>Email</th>
+                              <th>Subject</th>
+                              <th>Message</th>
+                              <th>Created Date</th>
+                              <th>Action</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr *ngFor="let feedback of feedbackList">
+                              <td>{{ feedback.ContactId }}</td>
+                              <td>{{ feedback.Name }}</td>
+                              <td>{{ feedback.Email }}</td>
+                              <td>{{ feedback.Subject }}</td>
+                              <td>{{ feedback.Message }}</td>
+                              <td>{{ feedback.CreatedDate }}</td>
+                              <td>
+                                <button 
+                                  class="btn btn-danger btn-sm" 
+                                  (click)="deleteFeedback(feedback.ContactId)">
+                                  Delete
+                                </button>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                  
+                      <ng-template #noFeedback>
+                        <p>No feedback available.</p>
+                      </ng-template>
+                    </div>
+                  </section>    
+            </div>
+        </div>
+    </div>
+  

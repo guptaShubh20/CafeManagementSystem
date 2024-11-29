@@ -1,0 +1,149 @@
+<app-adminnav></app-adminnav>
+
+
+  
+    <div class="row " >
+      <!-- Sidebar -->
+      <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-danger">
+                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                    <!-- <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none"> -->
+                        <span class="fs-5 d-none d-sm-inline"><b>Admin Portal</b></span>
+                    <!-- </a> -->
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                       
+                      
+                        <li>
+                            <a routerLink="/dashboard" class="nav-link px-0 align-middle">
+                                <i  class="fs-4 bi-speedometer2" style="color: white; font-size: large;"></i> <span class="ms-1 d-none d-sm-inline text-white fw-bold">Dashboard</span> </a>
+                
+                        </li>
+                        <li>
+                            <a routerLink="/categories"  class="nav-link px-0 align-middle ">
+                                <i class="bi bi-columns-gap" style="color: white;"></i><span class="ms-1 d-none d-sm-inline text-white fw-bold">Categories</span></a>
+        
+                        </li>
+                        <li>
+                            <a routerLink="/products"  class="nav-link px-0 align-middle">
+                                <i class="bi bi-cup-straw" style="color:white;"></i> <span class="ms-1 d-none d-sm-inline text-white fw-bold">Products</span> </a>
+
+                        </li>
+                        <li>
+                            <a routerLink="/orders" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-table" style="color: white;"></i> <span class="ms-1 d-none d-sm-inline text-white fw-bold">Orders</span></a>
+                        </li>
+                
+                   
+                        <li>
+                            <a routerLink="/customers" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-people" style="color: white;"></i> <span class="ms-1 d-none d-sm-inline text-white fw-bold">Customers</span> </a>
+                        </li>
+
+                        <li>
+                            <a routerLink="/contact" class="nav-link px-0 align-middle">
+                                <i class="bi bi-chat-right-text-fill" style="color: white;"></i><span class="ms-1 d-none d-sm-inline text-white fw-bold">Contact</span> </a>
+                        </li> 
+                         
+                        <li>
+                          <a routerLink="/menu" class="nav-link px-0 align-middle">
+                            <i class="bi bi-menu-down" style="color: white;"></i><span
+                              class="ms-1 d-none d-sm-inline text-white fw-bold">Menu</span> </a>
+                        </li>
+                    </ul>
+  
+                
+                </div>
+            </div>
+            <div class="col py-3">
+            
+
+                     <div class="col-md-10">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <div class="card text-center mb-4">
+                          <div class="card-body">
+                            <h5 class="card-title">Categories</h5>
+                            <p class="card-text">{{cl}}</p>
+                            <a routerLink="/categories" class="btn btn-primary">View Details</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="card text-center mb-4">
+                          <div class="card-body">
+                            <h5 class="card-title">Products</h5>
+                            <p class="card-text">{{pl}}</p>
+                            <a routerLink="/products" class="btn btn-primary">View Details</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="card text-center mb-4">
+                          <div class="card-body">
+                            <h5 class="card-title">Total Orders</h5>
+                            <p class="card-text">{{ol}}</p>
+                            <a routerLink="/orders" class="btn btn-primary">View Details</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="card text-center mb-4">
+                          <div class="card-body">
+                            <h5 class="card-title">Delivered Items</h5>
+                            <p class="card-text">{{ci}}</p>
+                            <a routerLink="/orders" class="btn btn-primary">View Details</a>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Add more cards here -->
+                    </div>
+              
+                    <div class="row">
+                      <div class="col-md-3">
+                        <div class="card text-center mb-4">
+                          <div class="card-body">
+                            <h5 class="card-title">Pending Items</h5>
+                            <p class="card-text">{{pi}}</p>
+                            <a routerLink="/orders" class="btn btn-primary">View Details</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="card text-center mb-4">
+                          <div class="card-body">
+                            <h5 class="card-title">Users</h5>
+                            <p class="card-text">{{ul}}</p>
+                            <a routerLink="/customers" class="btn btn-primary">View Details</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="card text-center mb-4">
+                          <div class="card-body">
+                            <h5 class="card-title">Sold Amount</h5>
+                            <p class="card-text">{{tp}}</p>
+                            <a routerLink="/orders" class="btn btn-primary">View Details</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="card text-center mb-4">
+                          <div class="card-body">
+                            <h5 class="card-title">Feedbacks</h5>
+                            <p class="card-text">{{fl}}</p>
+                            <a routerLink="/contact" class="btn btn-primary">View Details</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+               
+            </div>
+        </div>
+    </div>
+  
+
+

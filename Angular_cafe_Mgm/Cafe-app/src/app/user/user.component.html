@@ -1,0 +1,30 @@
+<app-nav></app-nav>
+  <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="card profile-card shadow-lg">
+            <div class="card-body text-center">
+              <!-- Profile Image -->
+              <div class="profile-image mb-4">
+                <img [src]="user?.ImageUrl || 'assets/default-profile.png'" class="rounded-circle" alt="Profile Image" />
+              </div>
+    
+              <!-- User Details -->
+              <h3 class="card-title">{{ user?.Name }}</h3>
+              <p class="text-muted">{{ user?.Username }}</p>
+    
+              <div class="user-info mt-4">
+                <p><i class="bi bi-envelope"></i> <strong>Email:</strong> {{ user?.Email }}</p>
+                <p><i class="bi bi-phone"></i> <strong>Mobile:</strong> {{ user?.Mobile }}</p>
+                <p><i class="bi bi-geo-alt"></i> <strong>Address:</strong> {{ user?.Address }}, {{ user?.PostCode }}</p>
+              </div>
+    
+              <!-- Edit Profile Button -->
+              <button class="btn btn-primary mt-3" routerLink="/purchase">Purchase History</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<app-footer></app-footer>

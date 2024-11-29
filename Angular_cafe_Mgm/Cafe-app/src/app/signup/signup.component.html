@@ -1,0 +1,93 @@
+ 
+<div class="outer">
+    <div class="container">
+        <div class="row">
+            <div class="offset-md-2 col-lg-5 col-md-7 offset-lg-4 offset-md-3">
+                <div class="panel border bg-white">
+                    <div class="panel-heading">
+                        <h3 class="pt-3 font-weight-bold" style="font-family: 'Dancing Script', cursive;">Sign Up</h3>
+                    </div>
+                    <div class="panel-body p-3">
+                        <form #signUpForm="ngForm" (ngSubmit)="onSignup(signUpForm)">
+
+                            <div class="form-group pt-3">
+                                <div class="input-field" [class.error]="signUpForm.controls['name']?.dirty && signUpForm.controls['name']?.invalid">
+                                    <span class="fa fa-user p-2"></span>
+                                    <input name="name" ngModel required type="text" placeholder="Name"  pattern="^(?!\s)([A-Za-z]+(\s[A-Za-z]+)*)?(?<!\s)$">
+                                </div>
+                            </div>
+                            <small *ngIf="signUpForm.controls['name']?.dirty && signUpForm.controls['name']?.invalid" class="text-danger">Name is required</small>
+
+                            <div class="form-group pt-3">
+                                <div class="input-field" [class.error]="signUpForm.controls['username']?.dirty && signUpForm.controls['username']?.invalid">
+                                    <span class="bi bi-person-badge-fill p-2"></span>
+                                    <input name="username" ngModel required type="text" placeholder="Username" minlength="3"
+                                    maxlength="20"
+                                    pattern="^[a-zA-Z0-9_@]*$">
+                                </div>
+                            </div>
+                            <small *ngIf="signUpForm.controls['username']?.dirty && signUpForm.controls['username']?.invalid" class="text-danger">Username is required</small>
+
+                            <div class="form-group pt-3">
+                                <div class="input-field" [class.error]="signUpForm.controls['mobile']?.dirty && signUpForm.controls['mobile']?.invalid">
+                                    <span class="bi bi-telephone-fill p-2"></span>
+                                    <input name="mobile" ngModel required type="text" placeholder="Mobile"
+                                    pattern="^[1-9]\d{9}$"
+                                    minlength="10"
+                                    maxlength="10">
+                                </div>
+                            </div>
+                            <small *ngIf="signUpForm.controls['mobile']?.dirty && signUpForm.controls['mobile']?.invalid" class="text-danger">Mobile No. is required</small>
+
+                            <div class="form-group pt-3">
+                                <div class="input-field" [class.error]="signUpForm.controls['email']?.dirty && signUpForm.controls['email']?.invalid">
+                                    <span class="bi bi-envelope-fill p-2"></span>
+                                    <input name="email" ngModel  type="email" placeholder="Email" required email pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
+                                </div>
+                            </div>
+                            <small *ngIf="signUpForm.controls['email']?.dirty && signUpForm.controls['email']?.invalid" class="text-danger" >Email is required</small>
+
+                            <div class="form-group pt-3">
+                                <div class="input-field" [class.error]="signUpForm.controls['address']?.dirty && signUpForm.controls['address']?.invalid">
+                                    <span class="bi bi-house-door-fill p-2"></span>
+                                    <input name="address" ngModel required type="text" placeholder="Address" pattern="^(?! )[^\s]+(?:[^\s]*[^\s])?(?! )$">
+                                </div>
+                            </div>
+                            <small *ngIf="signUpForm.controls['address']?.dirty && signUpForm.controls['address']?.invalid" class="text-danger">Address is required</small>
+
+                            <div class="form-group pt-3">
+                                <div class="input-field" [class.error]="signUpForm.controls['postcode']?.dirty && signUpForm.controls['postcode']?.invalid">
+                                    <span class="bi bi-mailbox2 p-2"></span>
+                                    <input name="postcode" ngModel required type="text" placeholder="Postal Code"     pattern="^\d+$"                         >
+                                </div>
+                            </div>
+                            <small *ngIf="signUpForm.controls['postcode']?.dirty && signUpForm.controls['postcode']?.invalid" class="text-danger">Postal Code is required</small>
+
+                            <div class="form-group pt-3">
+                                <div class="input-field" [class.error]="signUpForm.controls['password']?.dirty && signUpForm.controls['password']?.invalid">
+                                    <span class="fa fa-lock p-2"></span>
+                                    <input name="password" ngModel required [type]="type" placeholder="Password">
+                                    <span (click)="hideShowPass()" class="fa {{eyeIcon}}"></span>
+                                </div>
+                            </div>
+                            <small *ngIf="signUpForm.controls['password']?.dirty && signUpForm.controls['password']?.invalid" class="text-danger">Password is required</small>
+
+                            <!-- Image Upload -->
+                            <div class="form-group pt-3">
+                                <label for="imageUpload" class="font-weight-bold">Upload Image</label>
+                                <div class="input-field">
+                                    <input type="file" (change)="onFileSelected($event)" />
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block mt-4 w-100">Sign Up</button>
+                            <div class="text-center pt-4 text-muted">Already have an account? <a id="forget" routerLink="/login">Login</a></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>

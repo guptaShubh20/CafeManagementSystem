@@ -1,0 +1,33 @@
+<app-nav></app-nav>
+
+<section class="about_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="img-box">
+            <img [src]="about.image.url" [alt]="about.title">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                {{ about.title }}
+              </h2>
+            </div>
+            <p [innerHTML]="about.description"></p>
+            <!-- Use Angular's routerLink if you have routing set up -->
+            <a [href]="about.read_more_link ? about.read_more_link : '#'" [routerLink]="about.read_more_link ? null : '/fallback-route'">
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+ <app-footer></app-footer>
+
+
